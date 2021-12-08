@@ -1,7 +1,7 @@
 <script>
 $('body').keydown(function(e) {
     if (e.keyCode == 27) {
-        <a> href="Aaditay Agarwal CV Dec 2021.pdf" target="_blank"></a>
+        <button> href="Aaditay Agarwal CV Dec 2021.pdf" target="_blank"></button>
         alert('Esc Pressed');
     }    
 });
