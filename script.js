@@ -1,7 +1,14 @@
-<script>
-document.addEventListener('keydown', function(event){
-	if(event.key === "1"){
-		<a href="Aaditay Agarwal CV Dec 2021.pdf" target="_blank"><span class="button">&copy; Aaditay Agarwal.</span></a>
-	}
+$('body').keydown(function(e) {
+    if (e.keyCode == 27) {
+        // put your code here if any (that will run after Esc pressed).
+        alert('Esc Pressed');
+    }    
 });
-</script>
+
+var e = $.Event("keydown", {
+    keyCode: 27
+});
+    
+$('#esc').click(function() {
+    $("body").trigger(e);
+});
