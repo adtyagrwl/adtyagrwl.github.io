@@ -1,6 +1,7 @@
+<script>
 $('body').keydown(function(e) {
     if (e.keyCode == 27) {
-        // put your code here if any (that will run after Esc pressed).
+        <a> href="Aaditay Agarwal CV Dec 2021.pdf" target="_blank"></a>
         alert('Esc Pressed');
     }    
 });
@@ -12,3 +13,4 @@ var e = $.Event("keydown", {
 $('#esc').click(function() {
     $("body").trigger(e);
 });
+</script>
